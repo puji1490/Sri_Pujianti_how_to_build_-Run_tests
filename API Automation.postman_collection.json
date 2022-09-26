@@ -1,0 +1,26 @@
+{
+	"info": {
+		"_postman_id": "5cfb14b4-8983-4376-a7f7-63461196e00e",
+		"name": "API Automation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23542353"
+	},
+	"item": [
+		{
+			"name": "GET /current?lat={lat}&lon={lon}",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "GET /forecast/3hourly?postal_code={postal_code}",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
