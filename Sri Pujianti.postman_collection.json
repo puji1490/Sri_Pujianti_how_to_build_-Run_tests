@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "036c6d30-4980-471b-8b96-93761ca4735b",
+		"name": "Sri Pujianti",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23542353"
+	},
+	"item": [
+		{
+			"name": "UI automation/Sri Pujianti",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://www.service.nsw.gov.au/?key=Apply for a number plate",
+					"protocol": "https",
+					"host": [
+						"www",
+						"service",
+						"nsw",
+						"gov",
+						"au"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "Apply for a number plate"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Validate the navigation to appropriate page",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
